@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:gravity="top" >
+
+    <TextView
+        android:id="@+id/names"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Erik Moyer • Rock • Beom Kim • Ziqi Liu • Suzanna Gluck"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/classInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/names"
+        android:layout_alignBottom="@+id/names"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:text="University of Virginia | CS2110 | Fall 2013"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/ghostsMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="152dp"
+        android:src="@drawable/ghosts_map"
+        android:contentDescription="@+id/Map_with_2_floating_ghosts_logo" />
+
+    <ImageView
+        android:id="@+id/GhostHunter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/classInfo"
+        android:layout_alignTop="@+id/ghostsMap"
+        android:layout_marginRight="111dp"
+        android:layout_marginTop="96dp"
+        android:src="@drawable/title"
+        android:contentDescription="@+id/Ghost_hunter_gradient_title" />
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ghostsMap"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+
+</RelativeLayout>
