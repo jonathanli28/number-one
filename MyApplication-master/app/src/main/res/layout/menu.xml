@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@mipmap/images3">
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Ghost Hunter"
+        android:id="@+id/splashScreenText1"
+        android:layout_marginTop="56dp"
+        android:textStyle="bold"
+        android:textSize="28dp"
+        android:typeface="monospace"
+        android:textColor="#fff0fd"
+
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:gravity="center"
+        android:text="University of Virginia\nCS2110\nSpring 2015\n2Inspired2BeTired"
+        android:id="@+id/splashScreenText2"
+        android:textColor="#fff0fd"
+
+        android:layout_below="@+id/splashScreenText1"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:gravity="left"
+        android:text="\n\nMembers: Michelle Wong  Amy Zhao\n                   Yining Tao      Jonathan Li\nTA:             Iordan Trenkov"
+        android:id="@+id/splashScreenText3"
+        android:textColor="#ec0f0f"
+        android:layout_marginBottom="79dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
+
+
+
